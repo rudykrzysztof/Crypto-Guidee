@@ -1,0 +1,23 @@
+{
+  "name": "crypto-dashboard",
+  "version": "1.0.0",
+  "description": "Simple crypto dashboard with backend API and frontend UI",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "node backend/server.js",
+    "start": "node backend/server.js"
+  },
+  "keywords": [
+    "crypto",
+    "dashboard",
+    "bitcoin",
+    "ethereum",
+    "api"
+  ],
+  "author": "yourname",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
