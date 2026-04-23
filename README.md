@@ -1,25 +1,59 @@
+# 🚀 Crypto Dashboard
 
-# 🚀 Crypto Guide
+Live dashboard do śledzenia cen kryptowalut.
 
-Prosty przewodnik po świecie kryptowalut.
+## ⚡ Features
 
-## 📚 Spis treści
+* 📊 Live ceny (CoinGecko API)
+* 📈 Dashboard UI
+* 🔎 Prosty frontend
+* ⚡ Backend API (Flask)
 
-* [🪙 Podstawy kryptowalut](docs/basics.md)
-* [⛓️ Blockchain](docs/blockchain.md)
-* [📈 Trading](docs/trading.md)
-* [👛 Portfele](docs/wallets.md)
-* [⚠️ Ryzyko](docs/risks.md)
+---
 
-## 🔗 Dodatkowe materiały
+## 🖥️ Demo
 
-* [🌐 Linki](resources/links.md)
-* [🛠️ Narzędzia](resources/tools.md)
+(coming soon)
 
-## 💡 O projekcie
+---
 
-Repozytorium stworzone jako wprowadzenie do kryptowalut dla początkujących.
+## 🚀 Uruchomienie
 
-## 📜 Licencja
+### Backend
 
-MIT
+```bash
+cd backend
+pip install -r ../requirements.txt
+python app.py
+```
+
+### Frontend
+
+Otwórz:
+
+```bash
+frontend/index.html
+```
+
+---
+
+## 📡 API
+
+GET `/api/prices`
+
+---
+
+## 🧠 Stack
+
+* Python (Flask)
+* JavaScript
+* HTML/CSS
+
+---
+
+## 🔮 Next steps
+
+* [ ] wykresy (Chart.js)
+* [ ] wyszukiwarka coinów
+* [ ] login + ulubione
+* [ ] AI analiza trendów
