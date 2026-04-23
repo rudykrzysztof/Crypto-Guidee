@@ -1,59 +1,68 @@
 # 🚀 Crypto Dashboard
 
-Live dashboard do śledzenia cen kryptowalut.
+Nowoczesny dashboard do śledzenia kryptowalut z prostym API i frontendem.
 
-## ⚡ Features
+![License](https://img.shields.io/badge/license-MIT-green)
+![Node.js](https://img.shields.io/badge/backend-Node.js-brightgreen)
+![Frontend](https://img.shields.io/badge/frontend-Vanilla%20JS-blue)
+![Status](https://img.shields.io/badge/status-in%20progress-orange)
 
-* 📊 Live ceny (CoinGecko API)
-* 📈 Dashboard UI
-* 🔎 Prosty frontend
-* ⚡ Backend API (Flask)
+## ✨ Funkcje
 
----
+* podgląd cen najpopularniejszych kryptowalut
+* prosty backend API
+* nowoczesny frontend
+* dokumentacja projektu
+* struktura gotowa do dalszej rozbudowy
 
-## 🖥️ Demo
+## 📸 Preview
 
-(coming soon)
+Dodaj screen aplikacji do `public/preview.png`.
 
----
+## 📂 Dokumentacja
 
-## 🚀 Uruchomienie
+* [Project Overview](docs/overview.md)
+* [API Docs](docs/api.md)
+* [Architecture](docs/architecture.md)
+* [Deployment](docs/deployment.md)
 
-### Backend
+## 🛠️ Stack
 
-```bash
-cd backend
-pip install -r ../requirements.txt
-python app.py
-```
-
-### Frontend
-
-Otwórz:
-
-```bash
-frontend/index.html
-```
-
----
-
-## 📡 API
-
-GET `/api/prices`
-
----
-
-## 🧠 Stack
-
-* Python (Flask)
+* Node.js
+* Express
+* HTML
+* CSS
 * JavaScript
-* HTML/CSS
 
----
+## 🚀 Start
 
-## 🔮 Next steps
+```bash
+npm install
+npm run dev
+```
 
-* [ ] wykresy (Chart.js)
-* [ ] wyszukiwarka coinów
-* [ ] login + ulubione
-* [ ] AI analiza trendów
+Aplikacja backendowa ruszy na porcie `3000`.
+
+Frontend otwórz przez `frontend/index.html` albo podepnij później pod Vite / React.
+
+## 📡 Endpointy
+
+* `GET /api/prices`
+* `GET /api/health`
+
+## 🧠 Pomysły na dalszy rozwój
+
+* wykresy cen
+* filtrowanie coinów
+* watchlista
+* logowanie użytkownika
+* integracja z walletem
+* dark/light mode
+
+## 🤝 Contributing
+
+Pull requesty mile widziane.
+
+## 📜 Licencja
+
+MIT
