@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Crypto Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crypto Dashboard</title>
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-    <h1>🚀 Crypto Dashboard</h1>
+  <header class="hero">
+    <div class="container">
+      <h1>🚀 Crypto Dashboard</h1>
+      <p>Track popular cryptocurrencies in one clean interface.</p>
+    </div>
+  </header>
 
-    <div id="prices"></div>
+  <main class="container">
+    <section class="topbar">
+      <input id="searchInput" type="text" placeholder="Search coin..." />
+    </section>
 
-    <script src="app.js"></script>
+    <section>
+      <div id="coinsGrid" class="grid"></div>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
 </body>
 </html>
